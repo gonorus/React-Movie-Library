@@ -10,13 +10,13 @@ test('Link changes the class when hovered', () => {
   expect(tree).toMatchSnapshot();
 
   // manually trigger the callback
-  act(() => { return tree.props.onMouseEnter(); });
+  act(() => tree.props.onMouseEnter());
   // re-rendering
   tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 
   // manually trigger the callback
-  act(() => { return tree.props.onMouseLeave(); });
+  act(() => tree.props.onMouseLeave());
   // re-rendering
   tree = component.toJSON();
   expect(tree).toMatchSnapshot();
