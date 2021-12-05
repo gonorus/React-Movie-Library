@@ -20,8 +20,14 @@ const Modal = ({ children }) => {
     containerElement.remove();
   }, []);
 
+  const OnCloseModal = () => {
+    const containerElement = document.getElementsByClassName('modal-container')[0];
+    if (containerElement) ReactDOM.unmountComponentAtNode(containerElement);
+  };
+
   return (
     <div className='modal-dialog'>
+      <button type='button' onClick={OnCloseModal}>Close</button>
       {children}
     </div>
   );

@@ -4,6 +4,12 @@ exports[`Modal Dialog displayed 1`] = `
 <div
   className="modal-dialog"
 >
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Close
+  </button>
   asd
 </div>
 `;
