@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --node-env development --color",
-    "test": "jest --coverage --passWithNoTests",
+    "test": "jest --coverage --passWithNoTests --env=jsdom",
     "build": "webpack --node-env production --progress",
     "lint": "eslint --ext js,jsx .",
     "lint-fix": "eslint --fix --ext js,jsx ."
