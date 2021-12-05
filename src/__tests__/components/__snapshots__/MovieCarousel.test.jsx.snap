@@ -1,527 +1,574 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Movie Thumbnail loaded 1`] = `
+exports[`Movie Carousel loaded 1`] = `
 <div
-  className="movie-carousel"
+  className="movie-carousel-container"
 >
+  <h3>
+    
+  </h3>
   <div
-    className="movie-thumbnail-card"
+    className="movie-carousel"
   >
     <div
-      className="picture-container"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
+      </div>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
       </div>
     </div>
     <div
-      className="movie-thumbnail-info"
+      className="movie-thumbnail-card"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex={0}
     >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
-    </div>
-  </div>
-  <div
-    className="movie-thumbnail-card"
-  >
-    <div
-      className="picture-container"
-    >
-      <img
-        alt="Movie Title"
-        loading="lazy"
-        onError={[Function]}
-        onLoad={[Function]}
-        src="http://localhost/example.jpg"
-      />
       <div
-        className="showbox"
+        className="picture-container"
       >
+        <img
+          alt="Movie Title"
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="http://localhost/example.jpg"
+        />
         <div
-          className="loader"
-          style={
-            Object {
-              "width": 50,
-            }
-          }
+          className="showbox"
         >
-          <svg
-            className="circular"
-            viewBox="25 25 50 50"
+          <div
+            className="loader"
+            style={
+              Object {
+                "width": 50,
+              }
+            }
           >
-            <circle
-              className="path"
-              cx="50"
-              cy="50"
-              fill="none"
-              r="20"
-              strokeMiterlimit="10"
-              strokeWidth="2"
-            />
-          </svg>
+            <svg
+              className="circular"
+              viewBox="25 25 50 50"
+            >
+              <circle
+                className="path"
+                cx="50"
+                cy="50"
+                fill="none"
+                r="20"
+                strokeMiterlimit="10"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
         </div>
       </div>
-    </div>
-    <div
-      className="movie-thumbnail-info"
-    >
-      <h3>
-        Movie Title
-      </h3>
-      <p>
-        Dec 4, 2021
-      </p>
+      <div
+        className="movie-thumbnail-info"
+      >
+        <h3>
+          Movie Title
+        </h3>
+        <p>
+          Dec 4, 2021
+        </p>
+      </div>
     </div>
   </div>
 </div>
