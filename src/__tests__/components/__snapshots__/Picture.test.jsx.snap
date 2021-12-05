@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Picture loaded 1`] = `
+<div
+  className="picture-container"
+>
+  <img
+    alt="alternate image"
+    loading="lazy"
+    onError={[Function]}
+    onLoad={[Function]}
+    src="https://images.unsplash.com/photo-1637249805971-59d7b9319df3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+  />
+  <div
+    className="showbox"
+  >
+    <div
+      className="loader"
+      style={
+        Object {
+          "width": 50,
+        }
+      }
+    >
+      <svg
+        className="circular"
+        viewBox="25 25 50 50"
+      >
+        <circle
+          className="path"
+          cx="50"
+          cy="50"
+          fill="none"
+          r="20"
+          strokeMiterlimit="10"
+          strokeWidth="2"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Picture loaded 2`] = `
+<div
+  className="picture-container"
+>
+  <img
+    alt="alternate image"
+    loading="lazy"
+    onError={[Function]}
+    onLoad={[Function]}
+    src="https://images.unsplash.com/photo-1637249805971-59d7b9319df3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+  />
+</div>
+`;
+
+exports[`Picture loaded 3`] = `
+<div
+  className="picture-container"
+>
+  <img
+    alt="alternate image"
+    loading="lazy"
+    onError={[Function]}
+    onLoad={[Function]}
+    src="https://images.unsplash.com/photo-1637249805971-59d7b9319df3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+  />
+</div>
+`;
