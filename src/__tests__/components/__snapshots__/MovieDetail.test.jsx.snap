@@ -4,10 +4,45 @@ exports[`Movie Detail displayed 1`] = `
 <div
   className="modal-dialog"
 >
-  <div
-    className="movie-details"
+  <button
+    onClick={[Function]}
+    type="button"
   >
-    http://localhost/details
+    Close
+  </button>
+  <div
+    className="movie-details-container"
+  >
+    <div
+      className="showbox"
+    >
+      <div
+        className="loader"
+        style={
+          Object {
+            "width": 50,
+          }
+        }
+      >
+        <svg
+          className="circular"
+          viewBox="25 25 50 50"
+        >
+          <circle
+            className="path"
+            cx="50"
+            cy="50"
+            fill="none"
+            r="20"
+            strokeMiterlimit="10"
+            strokeWidth="2"
+          />
+        </svg>
+      </div>
+    </div>
+    <p>
+      Please wait...
+    </p>
   </div>
 </div>
 `;
