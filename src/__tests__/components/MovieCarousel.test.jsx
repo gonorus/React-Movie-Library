@@ -36,7 +36,7 @@ test('Movie Thumbnail loaded', () => {
     },
   ];
   const component = renderer.create(
-    <MovieCarousel movies={movies} />,
+    <MovieCarousel movies={movies} />
   );
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();

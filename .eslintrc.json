@@ -39,6 +39,16 @@
     "arrow-body-style": [
       "error",
       "as-needed"
+    ],
+    "comma-dangle": [
+      "warn",
+      {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never"
+      }
     ]
   }
 }
