@@ -23,7 +23,7 @@ const MovieLoader = () => (
  * displaying the movie information
  * @param {*} props
  */
-const MovieInfo = ({ movie }) => {
+export const MovieInfo = ({ movie }) => {
   const {
     Title, ReleaseDate, ImagePath, Overview
   } = movie;
@@ -46,6 +46,14 @@ const MovieInfo = ({ movie }) => {
       </div>
     </>
   );
+};
+MovieInfo.propTypes = {
+  movie: PropTypes.shape({
+    Title: PropTypes.string.isRequired,
+    ReleaseDate: PropTypes.objectOf(Date).isRequired,
+    ImagePath: PropTypes.string.isRequired,
+    Overview: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 /**

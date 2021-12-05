@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie info displayed 1`] = `
+Array [
+  <div
+    className="picture-container"
+  >
+    <img
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="http://localhost/example.jpg"
+    />
+    <div
+      className="showbox"
+    >
+      <div
+        className="loader"
+        style={
+          Object {
+            "width": 50,
+          }
+        }
+      >
+        <svg
+          className="circular"
+          viewBox="25 25 50 50"
+        >
+          <circle
+            className="path"
+            cx="50"
+            cy="50"
+            fill="none"
+            r="20"
+            strokeMiterlimit="10"
+            strokeWidth="2"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="movie-info"
+  >
+    <pre>
+      Title:
+       
+      Movie Title
+      
+
+      Release:
+       
+      Dec 4, 2021
+    </pre>
+    <p>
+      movie overview
+    </p>
+  </div>,
+]
+`;
