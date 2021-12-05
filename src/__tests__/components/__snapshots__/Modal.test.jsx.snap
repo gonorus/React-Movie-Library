@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Dialog displayed 1`] = `
+<div
+  className="modal-dialog"
+>
+  asd
+</div>
+`;
+
+exports[`Modal Dialog displayed 2`] = `null`;

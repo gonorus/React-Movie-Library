@@ -1,8 +1,54 @@
-.movie-carousel {
-  width: 100%;
+.movie-carousel-container {
+  width: auto;
   display: flex;
-  gap: 8px;
-  padding: 4px;
-  overflow-y: hidden;
+  flex-direction: column;
   box-sizing: border-box;
+
+  h3 {
+    margin: 8px 16px;
+    align-self: flex-start;
+    text-transform: capitalize;
+  }
+
+  .movie-carousel {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    gap: 8px;
+    padding: 4px;
+    overflow-y: hidden;
+    box-sizing: border-box;
+
+    .movie-thumbnail-card:first-child {
+      margin-left: 1.5rem;
+    }
+
+    .movie-thumbnail-card:last-child {
+      margin-right: 1.5rem;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background: #FFF;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .movie-carousel-container {
+
+    h3 {
+      font-size: 12px;
+    }
+
+    .movie-carousel {
+      min-height: 150px;
+    }
+  }
 }

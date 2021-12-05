@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --node-env development --color",
-    "test": "jest --coverage --passWithNoTests",
+    "test": "jest --coverage --passWithNoTests --env=jsdom",
     "build": "webpack --node-env production --progress",
     "lint": "eslint --ext js,jsx .",
     "lint-fix": "eslint --fix --ext js,jsx ."
@@ -31,6 +31,7 @@
     }
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -40,6 +41,7 @@
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-react": "^7.14.5",
     "@testing-library/react": "^12.1.0",
+    "@types/jest": "^27.0.3",
     "babel-jest": "^27.2.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.2.0",
