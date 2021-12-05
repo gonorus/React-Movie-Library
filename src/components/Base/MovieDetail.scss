@@ -1,0 +1,42 @@
+.movie-details-container {
+  max-width: 300px;
+  max-height: 500px;
+  padding: 16px;
+  display: grid;
+  row-gap: 8px;
+  overflow: auto;
+
+  img {
+    max-height: 300px;
+    max-width: 200px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .showbox {
+    position: relative;
+  }
+
+  .movie-info {
+    pre {
+      white-space: pre-wrap;
+    }
+    
+    p {
+      text-align: justify;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background: #FFF;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 1em;
+  }
+}

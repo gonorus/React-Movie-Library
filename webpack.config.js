@@ -51,6 +51,14 @@ const modules = {
       ],
     },
     {
+      test: /\.s[ac]ss$/i,
+      use: [
+        'style-loader',
+        'css-loader',
+        'sass-loader',
+      ],
+    },
+    {
       test: /\.(png|gif|jpe?g|ico)$/,
       type: 'asset/resource',
     },

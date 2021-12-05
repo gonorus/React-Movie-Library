@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie Thumbnail loaded 1`] = `
+<div
+  className="movie-thumbnail-card"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <div
+    className="picture-container"
+  >
+    <img
+      alt="Movie Title"
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="http://localhost/example.jpg"
+    />
+    <div
+      className="showbox"
+    >
+      <div
+        className="loader"
+        style={
+          Object {
+            "width": 50,
+          }
+        }
+      >
+        <svg
+          className="circular"
+          viewBox="25 25 50 50"
+        >
+          <circle
+            className="path"
+            cx="50"
+            cy="50"
+            fill="none"
+            r="20"
+            strokeMiterlimit="10"
+            strokeWidth="2"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="movie-thumbnail-info"
+  >
+    <h3>
+      Movie Title
+    </h3>
+    <p>
+      Dec 4, 2021
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Movie Thumbnail loaded 2`] = `
+<div
+  className="movie-thumbnail-card"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <div
+    className="picture-container"
+  >
+    <img
+      alt="Movie Title"
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="http://localhost/example.jpg"
+    />
+    <div
+      className="showbox"
+    >
+      <div
+        className="loader"
+        style={
+          Object {
+            "width": 50,
+          }
+        }
+      >
+        <svg
+          className="circular"
+          viewBox="25 25 50 50"
+        >
+          <circle
+            className="path"
+            cx="50"
+            cy="50"
+            fill="none"
+            r="20"
+            strokeMiterlimit="10"
+            strokeWidth="2"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="movie-thumbnail-info"
+  >
+    <h3>
+      Movie Title
+    </h3>
+    <p>
+      Dec 4, 2021
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Movie Thumbnail loaded 3`] = `
+<div
+  className="movie-thumbnail-card"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <div
+    className="picture-container"
+  >
+    <img
+      alt="Movie Title"
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="http://localhost/example.jpg"
+    />
+    <div
+      className="showbox"
+    >
+      <div
+        className="loader"
+        style={
+          Object {
+            "width": 50,
+          }
+        }
+      >
+        <svg
+          className="circular"
+          viewBox="25 25 50 50"
+        >
+          <circle
+            className="path"
+            cx="50"
+            cy="50"
+            fill="none"
+            r="20"
+            strokeMiterlimit="10"
+            strokeWidth="2"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="movie-thumbnail-info"
+  >
+    <h3>
+      Movie Title
+    </h3>
+    <p>
+      Dec 4, 2021
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Movie Thumbnail loaded 4`] = `
+<div
+  className="movie-thumbnail-card"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <div
+    className="picture-container"
+  >
+    <img
+      alt="Movie Title"
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="http://localhost/example.jpg"
+    />
+    <div
+      className="showbox"
+    >
+      <div
+        className="loader"
+        style={
+          Object {
+            "width": 50,
+          }
+        }
+      >
+        <svg
+          className="circular"
+          viewBox="25 25 50 50"
+        >
+          <circle
+            className="path"
+            cx="50"
+            cy="50"
+            fill="none"
+            r="20"
+            strokeMiterlimit="10"
+            strokeWidth="2"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="movie-thumbnail-info"
+  >
+    <h3>
+      Movie Title
+    </h3>
+    <p>
+      Dec 4, 2021
+    </p>
+  </div>
+</div>
+`;

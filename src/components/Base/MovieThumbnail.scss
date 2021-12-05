@@ -1,0 +1,46 @@
+.movie-thumbnail-card {
+  padding: 4px;
+  min-width: 15%;
+  height: auto;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+
+  .movie-thumbnail-info {
+    padding: 0 16px;
+
+    h3 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    p {
+      color: rgba(0,0,0,0.6);
+    }
+
+    h3,
+    p {
+      margin: 0;
+      white-space: pre;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .movie-thumbnail-card {
+    min-width: 25%;
+
+    .movie-thumbnail-info {
+      padding: 0;
+
+      h3,
+      p {
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+  }
+}
