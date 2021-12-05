@@ -15,6 +15,6 @@ export const MOVIE_DB = {
 };
 
 export const TV_DB = {
-  DETAILS: `${API_URL.URL}/tv/{id}?api_key=${ApiConfig.KEY}`,
+  DETAILS: `${API_URL.URL}/tv/{Id}?api_key=${ApiConfig.KEY}`,
   POPULAR: `${API_URL.URL}/tv/popular?api_key=${ApiConfig.KEY}`,
 };

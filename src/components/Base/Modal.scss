@@ -12,5 +12,11 @@
     background-color: white;
     padding: 8px;
     border-radius: .2em;
+    display: grid;
+    row-gap: 8px;
+
+    button {
+      align-self: center;
+    }
   }
 }
